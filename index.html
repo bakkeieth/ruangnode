@@ -59,14 +59,6 @@
               Testnet
               <span class="spinner-grow spinner-grow-sm text-warning" role="status"></span>
             </div>
-            <div class="col-auto fw-bold text-primary">
-              Inactive
-              <span class="spinner-grow spinner-grow-sm text-danger" role="status"></span>
-            </div>
-            <div class="col-auto fw-bold text-primary">
-              Finished
-              <span class="spinner-grow spinner-grow-sm text-primary" role="status"></span>
-            </div>
           </div>
         </div>
         <!-- Portfolio Grid Items-->
@@ -87,7 +79,7 @@
           <div class="col-lg-2 mb-5">
             <div class="col fw-bold text-center mb-2">
               Obol
-              <span class="spinner-grow spinner-grow-sm text-danger" role="status"></span>
+              <span class="spinner-grow spinner-grow-sm text-warning" role="status"></span>
             </div>
             <img src="assets/img/portfolio/obol.png" class="card-img-top rounded-circle" alt="..." />
             <div class="card-body text-center">
@@ -98,7 +90,7 @@
           <div class="col-lg-2 mb-5">
             <div class="col fw-bold text-center mb-2">
               Minima
-              <span class="spinner-grow spinner-grow-sm text-primary" role="status"></span>
+              <span class="spinner-grow spinner-grow-sm text-warning" role="status"></span>
             </div>
             <img src="assets/img/portfolio/minima.png" class="card-img-top rounded-circle" alt="..." />
             <div class="card-body text-center">
@@ -136,7 +128,7 @@
           <div class="col-lg-2 mb-5">
             <div class="col fw-bold text-center mb-2">
               Mars Protocol
-              <span class="spinner-grow spinner-grow-sm text-danger" role="status"></span>
+              <span class="spinner-grow spinner-grow-sm text-success" role="status"></span>
             </div>
             <img src="assets/img/portfolio/mars.jpg" class="card-img-top rounded-circle" alt="..." />
             <div class="card-body text-center">
@@ -206,60 +198,51 @@
     <!-- Portfolio Modals-->
     <!-- Portfolio Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body pb-5 ms-5">
             <div class="container">
-              <h2 class="text-center fw-bold mb-5 text-primary">Qblockchain</h2>
+              <h2 class="text-center fw-bold mb-5 text-primary">Q blockchain</h2>
               <p class="fw-bold text-start fs-4">Information</p>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="hq testnet"> hq.testnet.com</a>
+                  <span class="text-warning fw-bold">Testnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="#">0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20</a>
+                  <span class="text-dark fw-bold">qtestnet.org</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-warning fw-bold">Ongoing</p>
-                </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+                  <span class="text-dark fw-bold">v1.2.2</span>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="btn-group text-center">
-            <a href="https://youtube.com" class="btn btn-primary oposity-2 active text-center" aria-current="page">API</a>
-            <a href="https://youtube.com" class="btn btn-primary oposity-2 active text-center" aria-current="page">RPC</a>
-            <a href="https://youtube.com" class="btn btn-primary oposity-2 active text-center" aria-current="page">GRPC</a>
-          </div>
-          <div class="btn-group mt-2 text-center">
-            <a href="https://youtube.com" class="btn btn-primary opocity-2 active text-center" aria-current="page">SNAPSHOOT</a>
-            <a href="https://youtube.com" class="btn btn-primary opocity-2 active text-center" aria-current="page">EXPLORE</a>
-            <a href="https://youtube.com" class="btn btn-primary opocity-2 active text-center" aria-current="page">RELAY</a>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-success fw-bold">Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.qtestnet.org/address/0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20" role="button">Stake with ruangnode</a>
+            </div>
           </div>
         </div>
       </div>
@@ -267,56 +250,59 @@
 
     <!-- Portfolio Modal 2-->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body pb-5 ms-5">
             <div class="container">
-              <h2 class="text-center fw-bold mb-5 text-primary">Obol</h2>
+              <h2 class="text-center fw-bold mb-5 text-primary">Obol Tech</h2>
               <p class="fw-bold text-start fs-4">Information</p>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="hq testnet"> obol.tech</a>
+                  <span class="text-warning fw-bold">Testnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="#">0x98933b3e9e7D69B4ef2Fd6ab18c3C7b827d05E5E</a>
+                  <span class="text-dark fw-bold">obol</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-danger fw-bold">Cencel | Not have partner to participant</p>
-                </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+                  <span class="text-dark fw-bold">n/a</span>
                 </div>
               </div>
+            </div>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-danger fw-bold">Inactive | Not have partner</span>
+                </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.qtestnet.org/address/0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20" role="button">Stake with ruangnode</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Portfolio Modal 3-->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -328,44 +314,47 @@
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://incentive.minima.global/account/register?inviteCode=IBKQTFRM">incentive.minima.global</a>
+                  <span class="text-warning fw-bold">Testnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="#">n/a</a>
+                  <span class="text-dark fw-bold">Minima</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-info fw-bold">Finished</p>
-                </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+                  <span class="text-dark fw-bold"></span>
                 </div>
               </div>
+            </div>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-primary fw-bold">Finished</span>
+                </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.qtestnet.org/address/0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20" role="button">Stake with ruangnode</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Portfolio Modal 4-->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -377,44 +366,47 @@
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://www.wormholesscan.com">wormholes.com</a>
+                  <span class="text-warning fw-bold">Testnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://www.wormholesscan.com/#/AccountDetail/0x188563d2ea4d89715f7df2e1f613067fb548c423">0x188563d2ea4d89715f7df2e1f613067fb548c423</a>
+                  <span class="text-dark fw-bold">wormholes</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-warning fw-bold">Ongoing</p>
-                </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+                  <span class="text-dark fw-bold">v1.2.1</span>
                 </div>
               </div>
+            </div>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-success fw-bold">Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.qtestnet.org/address/0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20" role="button">Stake with ruangnode</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Portfolio Modal 5-->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -426,93 +418,113 @@
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://humans.ai/">https://humans.ai</a>
+                  <span class="text-warning fw-bold">Testnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://explorer.humans.zone/humans-testnet/staking/humanvaloper1y29z62r2cwdpkqh0xcgqxm854k7x8j6jjgx4x2">humanvaloper1y29z62r2cwdpkqh0xcgqxm854k7x8j6jjgx4x2</a>
+                  <span class="text-dark fw-bold">testnet-1</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-warning fw-bold">Ongoing</p>
+                  <span class="text-dark fw-bold">v.46.3</span>
                 </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+              </div>
+            </div>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-success fw-bold">Active</span>
                 </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.qtestnet.org/address/0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20" role="button">Stake with ruangnode</a>
+            </div>
+            <div class="container text-start">
+              <div class="d-grid gap-2 d-md-block justify-content-center text-center">
+                <a class="btn btn-primary btn-sm" href="" role="button">API Endpoint</a>
+                <a class="btn btn-primary btn-sm" href="#" role="button">RPC Endpoint</a>
+                <a class="btn btn-primary btn-sm" href="#" role="button">gRPC Endpoint</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Portfolio Modal 6-->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body pb-5 ms-5">
             <div class="container">
-              <h2 class="text-center fw-bold mb-5 text-primary">Mars</h2>
+              <h2 class="text-center fw-bold mb-5 text-primary">Mars Protocol</h2>
               <p class="fw-bold text-start fs-4">Information</p>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://marsprotocol.io/">mars.protocol.io</a>
+                  <span class="text-success fw-bold">Mainnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://mars.explorers.guru/validator/marsvaloper1tjpew9nl6zmwqk5h82wxn6pl8es4gftlgvvupj">marsvaloper1tjpew9nl6zmwqk5h82wxn6pl8es4gftlgvvupj</a>
+                  <span class="text-dark fw-bold">mars-1</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-danger fw-bold">Cencel | Not have delegate to active Validator</p>
+                  <span class="text-dark fw-bold"></span>
                 </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+              </div>
+            </div>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-danger fw-bold">Inactive | Not have delegate</span>
                 </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.qtestnet.org/address/0x35aCC685Fba7A1b39B9B3A79eed6446B02520e20" role="button">Stake with ruangnode</a>
+            </div>
+            <div class="container text-start">
+              <div class="d-grid gap-2 d-md-block justify-content-center text-center">
+                <a class="btn btn-primary btn-sm" href="" role="button">API Endpoint</a>
+                <a class="btn btn-primary btn-sm" href="#" role="button">RPC Endpoint</a>
+                <a class="btn btn-primary btn-sm" href="#" role="button">gRPC Endpoint</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Portfolio Modal 7-->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -524,41 +536,51 @@
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Website</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Network type :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="n/a">n/a</a>
+                  <span class="text-success fw-bold">Mainnet</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Staking</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Chain ID :</div>
                 <div class="col">
-                  <a class="text-primary fw-bold" href="https://explorer.8ball.info/8ball/staking/8ballvaloper1s6legr6qpl0gjxurx4gklwr3gvjlg954gyr9m3">8ball1s6legr6qpl0gjxurx4gklwr3gvjlg954wl3g72</a>
+                  <span class="text-dark fw-bold">eightball-1</span>
                 </div>
               </div>
             </div>
             <div class="container text-start">
               <div class="row justify-content-md-center">
-                <div class="col col-lg-2 fw-bold">Status</div>
-                <div class="col-md-auto">:</div>
+                <div class="col-md-auto fw-bold">Current Node Version :</div>
                 <div class="col">
-                  <p class="text-success fw-bold">Mainnet</p>
+                  <span class="text-dark fw-bold">v1.0.0</span>
                 </div>
-                <div>
-                  <button class="btn btn-primary mt-5" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close
-                  </button>
+              </div>
+            </div>
+            <div class="container text-start">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto fw-bold">Status :</div>
+                <div class="col">
+                  <span class="text-success fw-bold">Active</span>
                 </div>
+              </div>
+            </div>
+            <div class="container text-center justify-content-center mb-5 mt-5">
+              <a class="btn btn-primary btn-sm" href="https://explorer.8ball.info/8ball/staking/8ballvaloper1s6legr6qpl0gjxurx4gklwr3gvjlg954gyr9m3" role="button">Stake with ruangnode</a>
+            </div>
+            <div class="container text-start">
+              <div class="d-grid gap-2 d-md-block justify-content-center text-center">
+                <a class="btn btn-primary btn-sm" href="" role="button">API Endpoint</a>
+                <a class="btn btn-primary btn-sm" href="#" role="button">RPC Endpoint</a>
+                <a class="btn btn-primary btn-sm" href="#" role="button">gRPC Endpoint</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
